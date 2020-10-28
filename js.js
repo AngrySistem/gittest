@@ -15,3 +15,5 @@ function gridIndex(grid, indices) {
   gridIndex(a, c)
 
 console.log('hau hi to everyone')
+
+let newthes = [1,2,3,4];
