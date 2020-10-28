@@ -1,17 +1,16 @@
-let obj = {
-    'James': ['Jacob', 'Bill', 'Lucas'],
-    'Johnny': ['David', 'Kyle', 'Lucas'],
-    'Peter': ['Lucy', 'Kyle']
-};
+function gridIndex(grid, indices) {
+    
+    let b = grid.flat();
+    let c = indices.map((i) => b[i - 1]).join('')
+    return console.log(c)
+  }
 
-let news = obj['James'];
+  let a = [
+    ['m', 'y', 'e'], 
+ ['x', 'a', 'm'], 
+ ['p', 'l', 'e']];
 
-console.log(news);
+ let c = [1, 3, 5, 8];
 
-let view = ['Lucas', 'Bill'];
+  gridIndex(a, c)
 
-function findout(ponoz, watchers) {
-    let exemp = ponoz
-}
-
-findout(obj, view)
