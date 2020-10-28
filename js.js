@@ -14,3 +14,4 @@ function gridIndex(grid, indices) {
 
   gridIndex(a, c)
 
+console.log('hau hi to everyone')
